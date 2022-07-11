@@ -1,0 +1,24 @@
+### login
+
+GET http://localhost:3001/auth/google
+Content-Type: application/json
+
+### check login
+GET http://localhost:3001/auth/check
+
+
+### register
+POST http://localhost:3001/auth/register
+Content-Type: application/json
+
+{
+  "name": "nhatnguyen"
+}
+
+### google
+GET http://localhost:3001/auth/google
+Content-Type: application/json
+
+{
+  "access_token": "ya29.a0AVA9y1uV3vGqYPue01F2lsZt7iLAaHqv5r9aghwHkELWX1_L4q8HsEJ9Q_kbfDeRZdHKnCpSuUT2AADbXSEZ4IaOGzhyDhrODpIGqlyilndDtquuoScPudroFUdIsRG4rlzMRUAgutRfmMO1Ypc-vP8L2Ky9"
+}
